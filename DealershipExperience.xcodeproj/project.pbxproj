@@ -15,6 +15,10 @@
 		2A468B7A22EA90DE00076460 /* DealershipExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B7922EA90DE00076460 /* DealershipExperienceTests.swift */; };
 		2A468B8522EA90DE00076460 /* DealershipExperienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */; };
 		2A468B9322EB676700076460 /* QrCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */; };
+		2A4FED4A22EB8FE2003D3D1B /* WebSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FED4922EB8FE2003D3D1B /* WebSocketViewController.swift */; };
+		CA9457AE0E5BED3273FB4F1F /* Pods_DealershipExperienceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F71CBFEF78F3EFDDDE11D3 /* Pods_DealershipExperienceUITests.framework */; };
+		D064A724B022741C094A71D6 /* Pods_DealershipExperience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CC6F70EA65D22A50394BAA /* Pods_DealershipExperience.framework */; };
+		F7CF04511902B16ABB2FF44F /* Pods_DealershipExperienceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFCC27AC0DBBEA1FF5EFF9E /* Pods_DealershipExperienceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D6FF51E9EF69B8C9EC8A6C /* Pods-DealershipExperience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperience.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperience/Pods-DealershipExperience.debug.xcconfig"; sourceTree = "<group>"; };
 		2A468B6122EA90DD00076460 /* DealershipExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealershipExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A468B6422EA90DD00076460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A468B6622EA90DD00076460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipExperienceUITests.swift; sourceTree = "<group>"; };
 		2A468B8622EA90DE00076460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerViewController.swift; sourceTree = "<group>"; };
+		2A4FED4922EB8FE2003D3D1B /* WebSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketViewController.swift; sourceTree = "<group>"; };
+		77F71CBFEF78F3EFDDDE11D3 /* Pods_DealershipExperienceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealershipExperienceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AE73533EAEEBBE0556DC0E /* Pods-DealershipExperienceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperienceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperienceUITests/Pods-DealershipExperienceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86F45ADFB48DB11BC4A9F493 /* Pods-DealershipExperienceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperienceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperienceTests/Pods-DealershipExperienceTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CFCC27AC0DBBEA1FF5EFF9E /* Pods_DealershipExperienceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealershipExperienceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CC6F70EA65D22A50394BAA /* Pods_DealershipExperience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealershipExperience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B34D800E7FECAB079E82FD /* Pods-DealershipExperienceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperienceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperienceTests/Pods-DealershipExperienceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C61066EF35FF9217074132A4 /* Pods-DealershipExperienceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperienceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperienceUITests/Pods-DealershipExperienceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F44623A876F2820C5A6DA7D0 /* Pods-DealershipExperience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealershipExperience.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealershipExperience/Pods-DealershipExperience.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D064A724B022741C094A71D6 /* Pods_DealershipExperience.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CF04511902B16ABB2FF44F /* Pods_DealershipExperienceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9457AE0E5BED3273FB4F1F /* Pods_DealershipExperienceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E1FEE8E4B541DEBC353E97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D6FF51E9EF69B8C9EC8A6C /* Pods-DealershipExperience.debug.xcconfig */,
+				F44623A876F2820C5A6DA7D0 /* Pods-DealershipExperience.release.xcconfig */,
+				C2B34D800E7FECAB079E82FD /* Pods-DealershipExperienceTests.debug.xcconfig */,
+				86F45ADFB48DB11BC4A9F493 /* Pods-DealershipExperienceTests.release.xcconfig */,
+				86AE73533EAEEBBE0556DC0E /* Pods-DealershipExperienceUITests.debug.xcconfig */,
+				C61066EF35FF9217074132A4 /* Pods-DealershipExperienceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20147BB6AE408BE90D295C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC6F70EA65D22A50394BAA /* Pods_DealershipExperience.framework */,
+				9CFCC27AC0DBBEA1FF5EFF9E /* Pods_DealershipExperienceTests.framework */,
+				77F71CBFEF78F3EFDDDE11D3 /* Pods_DealershipExperienceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A468B5822EA90DC00076460 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				2A468B7822EA90DE00076460 /* DealershipExperienceTests */,
 				2A468B8322EA90DE00076460 /* DealershipExperienceUITests */,
 				2A468B6222EA90DD00076460 /* Products */,
+				16E1FEE8E4B541DEBC353E97 /* Pods */,
+				20147BB6AE408BE90D295C69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */,
 				2A468B7022EA90DE00076460 /* Info.plist */,
 				2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */,
+				2A4FED4922EB8FE2003D3D1B /* WebSocketViewController.swift */,
 			);
 			path = DealershipExperience;
 			sourceTree = "<group>";
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A468B8922EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperience" */;
 			buildPhases = (
+				F9ECFAABA1A4EAFA85AC85AF /* [CP] Check Pods Manifest.lock */,
 				2A468B5D22EA90DD00076460 /* Sources */,
 				2A468B5E22EA90DD00076460 /* Frameworks */,
 				2A468B5F22EA90DD00076460 /* Resources */,
+				80DEE244FAB51E266C611E4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A468B8C22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceTests" */;
 			buildPhases = (
+				0525F68722664E8EA4A63AD7 /* [CP] Check Pods Manifest.lock */,
 				2A468B7122EA90DE00076460 /* Sources */,
 				2A468B7222EA90DE00076460 /* Frameworks */,
 				2A468B7322EA90DE00076460 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A468B8F22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceUITests" */;
 			buildPhases = (
+				97D826E8DBEB2C6DCB6E8783 /* [CP] Check Pods Manifest.lock */,
 				2A468B7C22EA90DE00076460 /* Sources */,
 				2A468B7D22EA90DE00076460 /* Frameworks */,
 				2A468B7E22EA90DE00076460 /* Resources */,
@@ -254,6 +301,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0525F68722664E8EA4A63AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealershipExperienceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DEE244FAB51E266C611E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DealershipExperience/Pods-DealershipExperience-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DealershipExperience/Pods-DealershipExperience-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D826E8DBEB2C6DCB6E8783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealershipExperienceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ECFAABA1A4EAFA85AC85AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealershipExperience-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A468B5D22EA90DD00076460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +399,7 @@
 			files = (
 				2A468B6722EA90DD00076460 /* ViewController.swift in Sources */,
 				2A468B9322EB676700076460 /* QrCodeScannerViewController.swift in Sources */,
+				2A4FED4A22EB8FE2003D3D1B /* WebSocketViewController.swift in Sources */,
 				2A468B6522EA90DD00076460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +573,7 @@
 		};
 		2A468B8A22EA90DE00076460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D6FF51E9EF69B8C9EC8A6C /* Pods-DealershipExperience.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +592,7 @@
 		};
 		2A468B8B22EA90DE00076460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44623A876F2820C5A6DA7D0 /* Pods-DealershipExperience.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +611,7 @@
 		};
 		2A468B8D22EA90DE00076460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B34D800E7FECAB079E82FD /* Pods-DealershipExperienceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +632,7 @@
 		};
 		2A468B8E22EA90DE00076460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F45ADFB48DB11BC4A9F493 /* Pods-DealershipExperienceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +653,7 @@
 		};
 		2A468B9022EA90DE00076460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AE73533EAEEBBE0556DC0E /* Pods-DealershipExperienceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +673,7 @@
 		};
 		2A468B9122EA90DE00076460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61066EF35FF9217074132A4 /* Pods-DealershipExperienceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
