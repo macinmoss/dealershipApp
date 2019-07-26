@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A468B6522EA90DD00076460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B6422EA90DD00076460 /* AppDelegate.swift */; };
+		2A468B6722EA90DD00076460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B6622EA90DD00076460 /* ViewController.swift */; };
+		2A468B6A22EA90DD00076460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A468B6822EA90DD00076460 /* Main.storyboard */; };
+		2A468B6C22EA90DE00076460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A468B6B22EA90DE00076460 /* Assets.xcassets */; };
+		2A468B6F22EA90DE00076460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */; };
+		2A468B7A22EA90DE00076460 /* DealershipExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B7922EA90DE00076460 /* DealershipExperienceTests.swift */; };
+		2A468B8522EA90DE00076460 /* DealershipExperienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A468B7622EA90DE00076460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A468B5922EA90DC00076460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A468B6022EA90DD00076460;
+			remoteInfo = DealershipExperience;
+		};
+		2A468B8122EA90DE00076460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A468B5922EA90DC00076460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A468B6022EA90DD00076460;
+			remoteInfo = DealershipExperience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A468B6122EA90DD00076460 /* DealershipExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealershipExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A468B6422EA90DD00076460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A468B6622EA90DD00076460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A468B6922EA90DD00076460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A468B6B22EA90DE00076460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A468B6E22EA90DE00076460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A468B7022EA90DE00076460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A468B7522EA90DE00076460 /* DealershipExperienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealershipExperienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A468B7922EA90DE00076460 /* DealershipExperienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipExperienceTests.swift; sourceTree = "<group>"; };
+		2A468B7B22EA90DE00076460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A468B8022EA90DE00076460 /* DealershipExperienceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealershipExperienceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipExperienceUITests.swift; sourceTree = "<group>"; };
+		2A468B8622EA90DE00076460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A468B5E22EA90DD00076460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7222EA90DE00076460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7D22EA90DE00076460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A468B5822EA90DC00076460 = {
+			isa = PBXGroup;
+			children = (
+				2A468B6322EA90DD00076460 /* DealershipExperience */,
+				2A468B7822EA90DE00076460 /* DealershipExperienceTests */,
+				2A468B8322EA90DE00076460 /* DealershipExperienceUITests */,
+				2A468B6222EA90DD00076460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A468B6222EA90DD00076460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A468B6122EA90DD00076460 /* DealershipExperience.app */,
+				2A468B7522EA90DE00076460 /* DealershipExperienceTests.xctest */,
+				2A468B8022EA90DE00076460 /* DealershipExperienceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A468B6322EA90DD00076460 /* DealershipExperience */ = {
+			isa = PBXGroup;
+			children = (
+				2A468B6422EA90DD00076460 /* AppDelegate.swift */,
+				2A468B6622EA90DD00076460 /* ViewController.swift */,
+				2A468B6822EA90DD00076460 /* Main.storyboard */,
+				2A468B6B22EA90DE00076460 /* Assets.xcassets */,
+				2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */,
+				2A468B7022EA90DE00076460 /* Info.plist */,
+			);
+			path = DealershipExperience;
+			sourceTree = "<group>";
+		};
+		2A468B7822EA90DE00076460 /* DealershipExperienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A468B7922EA90DE00076460 /* DealershipExperienceTests.swift */,
+				2A468B7B22EA90DE00076460 /* Info.plist */,
+			);
+			path = DealershipExperienceTests;
+			sourceTree = "<group>";
+		};
+		2A468B8322EA90DE00076460 /* DealershipExperienceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */,
+				2A468B8622EA90DE00076460 /* Info.plist */,
+			);
+			path = DealershipExperienceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A468B6022EA90DD00076460 /* DealershipExperience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A468B8922EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperience" */;
+			buildPhases = (
+				2A468B5D22EA90DD00076460 /* Sources */,
+				2A468B5E22EA90DD00076460 /* Frameworks */,
+				2A468B5F22EA90DD00076460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealershipExperience;
+			productName = DealershipExperience;
+			productReference = 2A468B6122EA90DD00076460 /* DealershipExperience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A468B7422EA90DE00076460 /* DealershipExperienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A468B8C22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceTests" */;
+			buildPhases = (
+				2A468B7122EA90DE00076460 /* Sources */,
+				2A468B7222EA90DE00076460 /* Frameworks */,
+				2A468B7322EA90DE00076460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A468B7722EA90DE00076460 /* PBXTargetDependency */,
+			);
+			name = DealershipExperienceTests;
+			productName = DealershipExperienceTests;
+			productReference = 2A468B7522EA90DE00076460 /* DealershipExperienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A468B7F22EA90DE00076460 /* DealershipExperienceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A468B8F22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceUITests" */;
+			buildPhases = (
+				2A468B7C22EA90DE00076460 /* Sources */,
+				2A468B7D22EA90DE00076460 /* Frameworks */,
+				2A468B7E22EA90DE00076460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A468B8222EA90DE00076460 /* PBXTargetDependency */,
+			);
+			name = DealershipExperienceUITests;
+			productName = DealershipExperienceUITests;
+			productReference = 2A468B8022EA90DE00076460 /* DealershipExperienceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A468B5922EA90DC00076460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Moss, Jonathan (J.R.)";
+				TargetAttributes = {
+					2A468B6022EA90DD00076460 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2A468B7422EA90DE00076460 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2A468B6022EA90DD00076460;
+					};
+					2A468B7F22EA90DE00076460 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2A468B6022EA90DD00076460;
+					};
+				};
+			};
+			buildConfigurationList = 2A468B5C22EA90DC00076460 /* Build configuration list for PBXProject "DealershipExperience" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A468B5822EA90DC00076460;
+			productRefGroup = 2A468B6222EA90DD00076460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A468B6022EA90DD00076460 /* DealershipExperience */,
+				2A468B7422EA90DE00076460 /* DealershipExperienceTests */,
+				2A468B7F22EA90DE00076460 /* DealershipExperienceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A468B5F22EA90DD00076460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A468B6F22EA90DE00076460 /* LaunchScreen.storyboard in Resources */,
+				2A468B6C22EA90DE00076460 /* Assets.xcassets in Resources */,
+				2A468B6A22EA90DD00076460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7322EA90DE00076460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7E22EA90DE00076460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A468B5D22EA90DD00076460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A468B6722EA90DD00076460 /* ViewController.swift in Sources */,
+				2A468B6522EA90DD00076460 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7122EA90DE00076460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A468B7A22EA90DE00076460 /* DealershipExperienceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A468B7C22EA90DE00076460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A468B8522EA90DE00076460 /* DealershipExperienceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A468B7722EA90DE00076460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A468B6022EA90DD00076460 /* DealershipExperience */;
+			targetProxy = 2A468B7622EA90DE00076460 /* PBXContainerItemProxy */;
+		};
+		2A468B8222EA90DE00076460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A468B6022EA90DD00076460 /* DealershipExperience */;
+			targetProxy = 2A468B8122EA90DE00076460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A468B6822EA90DD00076460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A468B6922EA90DD00076460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A468B6E22EA90DE00076460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A468B8722EA90DE00076460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A468B8822EA90DE00076460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A468B8A22EA90DE00076460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A468B8B22EA90DE00076460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A468B8D22EA90DE00076460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealershipExperience.app/DealershipExperience";
+			};
+			name = Debug;
+		};
+		2A468B8E22EA90DE00076460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealershipExperience.app/DealershipExperience";
+			};
+			name = Release;
+		};
+		2A468B9022EA90DE00076460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperienceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperienceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DealershipExperience;
+			};
+			name = Debug;
+		};
+		2A468B9122EA90DE00076460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DealershipExperienceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ford.careerfair.DealershipExperienceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DealershipExperience;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A468B5C22EA90DC00076460 /* Build configuration list for PBXProject "DealershipExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A468B8722EA90DE00076460 /* Debug */,
+				2A468B8822EA90DE00076460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A468B8922EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A468B8A22EA90DE00076460 /* Debug */,
+				2A468B8B22EA90DE00076460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A468B8C22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A468B8D22EA90DE00076460 /* Debug */,
+				2A468B8E22EA90DE00076460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A468B8F22EA90DE00076460 /* Build configuration list for PBXNativeTarget "DealershipExperienceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A468B9022EA90DE00076460 /* Debug */,
+				2A468B9122EA90DE00076460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A468B5922EA90DC00076460 /* Project object */;
+}
