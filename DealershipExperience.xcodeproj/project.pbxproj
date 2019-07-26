@@ -14,6 +14,7 @@
 		2A468B6F22EA90DE00076460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */; };
 		2A468B7A22EA90DE00076460 /* DealershipExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B7922EA90DE00076460 /* DealershipExperienceTests.swift */; };
 		2A468B8522EA90DE00076460 /* DealershipExperienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */; };
+		2A468B9322EB676700076460 /* QrCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2A468B8022EA90DE00076460 /* DealershipExperienceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealershipExperienceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A468B8422EA90DE00076460 /* DealershipExperienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipExperienceUITests.swift; sourceTree = "<group>"; };
 		2A468B8622EA90DE00076460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2A468B6B22EA90DE00076460 /* Assets.xcassets */,
 				2A468B6D22EA90DE00076460 /* LaunchScreen.storyboard */,
 				2A468B7022EA90DE00076460 /* Info.plist */,
+				2A468B9222EB676700076460 /* QrCodeScannerViewController.swift */,
 			);
 			path = DealershipExperience;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A468B6722EA90DD00076460 /* ViewController.swift in Sources */,
+				2A468B9322EB676700076460 /* QrCodeScannerViewController.swift in Sources */,
 				2A468B6522EA90DD00076460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UD4D5PUU8Z;
 				INFOPLIST_FILE = DealershipExperience/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UD4D5PUU8Z;
 				INFOPLIST_FILE = DealershipExperience/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
